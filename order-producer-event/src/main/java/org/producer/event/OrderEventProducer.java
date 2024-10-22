@@ -36,7 +36,6 @@ public class OrderEventProducer {
         CompletableFuture<SendResult<Integer, String>> sendResultCompletableFuture
                 = kafkaTemplate.sendDefault(key, value);
 
-        // Use whenComplete to handle success and failure scenarios
         sendResultCompletableFuture.whenComplete((result, ex) -> {
             if (ex != null) {
                 handleFailure(key, value, ex);
