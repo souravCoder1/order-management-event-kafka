@@ -1,9 +1,6 @@
 package org.consumer.config;
 
-import com.learnkafka.service.FailureService;
-import com.learnkafka.service.OrderEventsService; // Updated to OrderEventsService
 import lombok.extern.slf4j.Slf4j;
-import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.TopicPartition;
 import org.consumer.service.FailureService;
 import org.consumer.service.OrderEventsService;
