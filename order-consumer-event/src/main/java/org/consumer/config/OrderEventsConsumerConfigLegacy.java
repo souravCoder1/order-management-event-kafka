@@ -1,6 +1,5 @@
 package org.consumer.config;
 
-import com.learnkafka.service.OrderEventsService; // Updated to OrderEventsService
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.consumer.service.OrderEventsService;
