@@ -1,4 +1,4 @@
-package org.consumer.event;
+package org.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

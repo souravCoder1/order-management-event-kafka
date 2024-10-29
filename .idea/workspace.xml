@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31113d64-6229-43f5-9b9a-edab16e0bb23" name="Changes" comment="setup">
-      <change afterPath="$PROJECT_DIR$/order-producer-event/src/main/java/org/producer/controller/LibraryEventsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-producer-event/src/main/java/org/producer/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-producer-event/src/main/java/org/producer/domain/OrderEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-producer-event/src/main/java/org/producer/domain/OrderEventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="31113d64-6229-43f5-9b9a-edab16e0bb23" name="Changes" comment="update gradle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-producer-event/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/order-producer-event/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-producer-event/src/main/java/org/producer/event/OrderProducerEventApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-producer-event/src/main/java/org/producer/OrderProducerEventApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +89,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/order-management-event-kafka/order-producer-event/src/main/java/org/producer",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,6 +104,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\order-management-event-kafka\order-producer-event\src\main\java\org\producer\controller" />
       <recent name="C:\Users\HP\IdeaProjects\order-management-event-kafka\order-producer-event\src\main\java\org\producer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -201,7 +194,9 @@
       <option name="presentableId" value="Default" />
       <updated>1729522364514</updated>
       <workItem from="1729522365633" duration="2701000" />
-      <workItem from="1729530494961" duration="408000" />
+      <workItem from="1729530494961" duration="786000" />
+      <workItem from="1729584133248" duration="2069000" />
+      <workItem from="1729588061839" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <option name="closed" value="true" />
@@ -211,7 +206,71 @@
       <option name="project" value="LOCAL" />
       <updated>1729522574033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add model and controller">
+      <option name="closed" value="true" />
+      <created>1729531280931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729531280931</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add topic local setup">
+      <option name="closed" value="true" />
+      <created>1729586973871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729586973871</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add OrderEventProducer">
+      <option name="closed" value="true" />
+      <created>1729586992792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729586992792</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add configs">
+      <option name="closed" value="true" />
+      <created>1729595177544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729595177544</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1729595196802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729595196803</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1729595209273</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729595209273</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove file">
+      <option name="closed" value="true" />
+      <created>1729595235139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729595235139</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update gradle">
+      <option name="closed" value="true" />
+      <created>1729595249226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729595249226</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +278,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup" />
+    <MESSAGE value="add model and controller" />
+    <MESSAGE value="add topic local setup" />
+    <MESSAGE value="add OrderEventProducer" />
+    <MESSAGE value="add configs" />
+    <MESSAGE value="add tests" />
+    <MESSAGE value="remove file" />
+    <MESSAGE value="update gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gradle" />
   </component>
 </project>
